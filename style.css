@@ -1,0 +1,109 @@
+/* Tyyli kaikille sivuille */
+body {
+    background-image: url("etusivunkuva.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* Otsikon väri ja sijainti */
+h1 {
+    color: #000000;
+    text-align: center;
+}
+
+/* Alaotsikon väri ja sijaini */
+h2 {
+    color: #000000;
+    text-align: center;
+}
+
+/* Tekstin väri, fontti sekä koko */
+p {
+    color: #f0f6fd;
+    font-family: verdana;
+    font-size: 20px;
+}
+
+/* Alatunnisteen asetukset */
+footer {
+    background-color: #1f2937;
+    text-align: center;
+    padding: 20px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+footer a {
+    color: #EC4899;
+    text-decoration: none;
+    font-size: 18px;
+
+}
+
+/* Tuotesivun kuvan asetukset; sijainti sekä koko */
+.kuva {
+    display: block;
+    float: left;
+    margin-right: auto;
+    width: 400px;
+    height: 222;
+}
+
+/* Yläreunan painikkeet eri sivuille */
+table.navbar {
+    margin: 0 auto;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+table.navbar td {
+    padding: 20px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+/* Puhelin ja sähköpostin asetukset */
+a {
+    font-size: 18px
+}
+
+/* Kuvatekstin asetukset */
+figure {
+    margin: 0;
+    display: inline-block;
+
+}
+
+figcaption {
+    font-size: 22px;
+    color: #ffffff;
+    margin-top: 5px;
+}
+
+/* Taulukon asetukset */
+table {
+    float: right;
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 300px;
+    margin: 20px;
+    top: 40px;
+    right: 20px;
+    font-size: 18px;
+}
+
+td,
+th {
+    border: 1px solid #dddddd;
+    padding: 8px;
+}
+
+/* Listan asetukset; väri, fontti, koko */
+ul {
+    color: #f0f6fd;
+    font-family: verdana;
+    font-size: 20px;
+}
